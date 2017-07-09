@@ -354,7 +354,7 @@ body {
         .centered {
             position: absolute;
             z-index: 15;
-            top: 45%;
+            top: 15%;
             left: 45%;
             margin: -100px 0 0 -150px;
             font-family: 'Open Sans Condensed', sans-serif !important;
@@ -364,7 +364,8 @@ body {
         }
  .centered > h2{
             font-family: 'Open Sans Condensed', sans-serif !important;
-            color: #eee2d6 !important;
+            color: #383f52 !important;
+            top : 15%;
             font-size: 90px;
 }
 
