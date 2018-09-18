@@ -329,6 +329,7 @@ body {
             -moz-background-size: auto;
             -o-background-size: auto;
             background-size: auto;
+            background-position: right;
             color: #eee2d6;
         }
         #social a:hover {
