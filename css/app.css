@@ -324,11 +324,11 @@ h3 a {
 }
 
 body {
-            background: url(../test.jpg) no-repeat center center fixed;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            background-size: cover;
+            background: url(../test.jpg) no-repeat;
+            -webkit-background-size: auto;
+            -moz-background-size: auto;
+            -o-background-size: auto;
+            background-size: auto;
             color: #eee2d6;
         }
         #social a:hover {
