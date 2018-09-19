@@ -323,15 +323,6 @@ h3 a {
     cursor: pointer
 }
 
-body {
-            background: url(../test.jpg) no-repeat;
-            -webkit-background-size: auto;
-            -moz-background-size: auto;
-            -o-background-size: auto;
-            background-size: auto;
-            background-position: right;
-            color: #eee2d6;
-        }
         #social a:hover {
     color: #FF3B30;
 }#contact {
@@ -404,10 +395,10 @@ body {
 }
 
 #social a {
-    color: #fff;
-    font-size: 24px;
+    color: #dddddd;
+    font-size: 48px;
     text-decoration: none;
-    padding: 5px;
+    padding: 10px;
     &:hover {
         color: #FF3B30;
     }
@@ -1212,3 +1203,42 @@ textarea {
     height: 300px;
     margin: 30px;
 }
+
+
+.image-bg{
+    background: url(../test.jpg) no-repeat;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
+    background-position: right;
+    height: 100%;
+}
+
+.image-bg-left{
+    background: url(../test2.jpg) no-repeat;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: 90%;
+    background-position: left;
+    height: 100%;
+}
+
+.no-row-spaces{
+    margin: 0 !important;
+}
+
+.valign-wrapper {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .text-center{
+    text-align: center;
+    margin: auto;
+  }
