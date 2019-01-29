@@ -9593,5 +9593,8 @@ html, body {
 .replace-radio-with-icon .mat-radio-container {
   display: none; }
 
+.replace-radio-with-icon .mat-radio-button {
+  padding: 5px; }
+
 .replace-radio-with-icon .mat-radio-label:hover {
   color: green; }
