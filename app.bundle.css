@@ -9434,7 +9434,45 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background: url("/images/loading-hourglass.gif") no-repeat center; }
+  background: -webkit-linear-gradient(top, #fff 0, #f2f2f2 100%) #f2f2f2;
+  background: linear-gradient(to bottom, #fff 0, #f2f2f2 100%) #f2f2f2;
+  -webkit-transition: opacity 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: opacity 0.3s cubic-bezier(0.645, 0.045, 0.355, 1); }
+  .spinning-preloader-container > .spinning-preloader-elements {
+    border: 3px solid transparent;
+    border-radius: 50%;
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-top-color: #44749d;
+    z-index: 1500;
+    opacity: 1;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite; }
+    .spinning-preloader-container > .spinning-preloader-elements:after {
+      border: 3px solid transparent;
+      border-radius: 50%;
+      content: '';
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      right: 15px;
+      bottom: 15px;
+      border-top-color: #f6dc74;
+      -webkit-animation: spin 1.5s linear infinite;
+      animation: spin 1.5s linear infinite; }
+    .spinning-preloader-container > .spinning-preloader-elements:before {
+      border: 3px solid transparent;
+      border-radius: 50%;
+      content: '';
+      position: absolute;
+      top: 5px;
+      left: 5px;
+      right: 5px;
+      bottom: 5px;
+      border-top-color: #da222b;
+      -webkit-animation: spin 3s linear infinite;
+      animation: spin 3s linear infinite; }
 
 .spinning-preloader-container.complete {
   opacity: 0;
@@ -9461,8 +9499,6 @@ i.fa {
   font-size: 48px;
   text-decoration: none;
   padding: 10px; }
-  #social a:hover {
-    color: #FF3B30; }
 
 .image-bg {
   -webkit-background-size: auto;
@@ -9552,6 +9588,27 @@ html, body {
   right: 42%;
   z-index: 10000000;
   font-size: 30px; }
+
+.github:hover {
+  color: black; }
+
+#social a .fa-github-square:hover {
+  color: black; }
+
+#social a .fa-linkedin:hover {
+  color: #0077B5; }
+
+#social a .fa-envelope:hover {
+  color: #d93025; }
+
+#social a .fa-facebook:hover {
+  color: #3b5998; }
+
+#social a .fa-instagram:hover {
+  color: #fb3958; }
+
+#social a .fa-stack-overflow:hover {
+  color: #020202; }
 .replace-radio-with-icon .mat-radio-container {
   display: none; }
 
